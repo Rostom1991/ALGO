@@ -20,5 +20,6 @@ END_WHILE
 write("vow",v)
 write("length",l)
 write("words",w)
+ssss
 
 END
