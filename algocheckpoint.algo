@@ -1,0 +1,24 @@
+ALGORITHM sum
+VAR
+    w,l : INTEGER:=1;
+    v:INTEGER:=0
+    c:CHAR;
+
+BEGIN
+read(c);
+WHILE (c <> "i") DO
+    l:=l+1;
+    IF (c = " ") THEN
+        w:=w+1;
+
+    ELSE IF (c in "a" , "u" , "e" , "o" , "i") THEN
+        v:=v+1;
+    END_IF
+    END_IF
+    read(c)
+END_WHILE
+write("vow",v)
+write("length",l)
+write("words",w)
+
+END
